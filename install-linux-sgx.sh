@@ -1,7 +1,6 @@
 #!/bin/bash
 
 PATH_LINUX_SGX_DRIVER="$1"
-PATH_LINUX_SGX="$2"
 
 PATH_INSTALL="/lib/modules/"$(uname -r)"/kernel/drivers/intel/sgx"
 
